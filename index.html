@@ -2,47 +2,62 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="./assets/images/favicon-32x32.png"
+		<!-- meta data for the description of the challenge -->
+		<meta
+			name="=description"
+			content="Frontend Mentor Blog preview card front-end coding challenge."
 		/>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="src/images/favicon-32x32.png" />
 		<title>Frontend Mentor | Blog preview card</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="src/styles.css" />
+		<link rel="stylesheet" href="src/queries.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<div class="container">
-			<div class="imageSection">
-				<img
-					src="assets/images/illustration-article.svg"
-					type="image/svg"
-					alt="main_image"
-				/>
-			</div>
-			<div class="textSection">
-				<div class="learning"><p>Learning</p></div>
-				<div class="date">Published 21 Dec 2023</div>
-				<div class="heading"><h1>HTML & CSS foundations</h1></div>
-				<div class="mainText">
-					<p>
-						These languages are the backbone of every website, defining
-						structure, content, and presentation.
-					</p>
-				</div>
-				<div class="author">
-					<div class="avatar">
+		<main>
+			<div class="section-card">
+				<div class="card">
+					<div class="image-wrapper">
 						<img
-							src="assets/images/image-avatar.webp"
-							type="image/webp"
-							alt="Greg Hooper"
+							src="src/images/illustration-article.svg"
+							alt="Card image"
+							class="card-img"
 						/>
 					</div>
-					<div class="name">Greg Hooper</div>
+					<div class="card-content">
+						<div class="card-tag">
+							<span class="tag">Learning</span>
+						</div>
+						<p class="card-publish-date">Published 21 Dec 2023</p>
+						<!-- <p class="card-title">HTML & CSS foundations</p> -->
+						<!-- <p class="card-title">HTML & CSS foundations</p> -->
+						<a href="#" class="card-title">HTML & CSS foundations</a>
+						<p class="card-text">
+							These languages are the backbone of every website, defining
+							structure, content, and presentation.
+						</p>
+					</div>
+					<div class="author-details">
+						<img
+							src="src/images/image-avatar.webp"
+							alt="Greg Hooper image"
+							class="author-img"
+						/>
+						<p class="author-name">Greg Hooper</p>
+					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	</body>
 </html>

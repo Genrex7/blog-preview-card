@@ -1,0 +1,24 @@
+/* ********************************** */
+/* BELOW 375px (MOBILE PHONES) */
+/* ********************************** */
+
+@media (max-width: 26em) {
+	.section-card {
+		max-width: 327px;
+	}
+	.tag,
+	.card-publish-date {
+		font-size: 12px;
+	}
+
+	.card-title:link,
+	.card-title:visited,
+	.card-title:hover,
+	.card-title:active,
+	.card-title:focus {
+		font-size: 20px;
+	}
+	.card-text {
+		font-size: 14px;
+	}
+}
