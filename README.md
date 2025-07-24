@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github/Blog-preview-card]()
-- Live Site URL: [Frontend Mentor/Blog-preview-card]()
+- Solution URL: [Github/Blog-preview-card](https://github.com/Genrex7/blog-preview-card)
+- Live Site URL: [Frontend Mentor/Blog-preview-card](https://genrex7.github.io/blog-preview-card/)
 
 ## My process
 
